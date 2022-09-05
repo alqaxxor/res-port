@@ -1,0 +1,131 @@
+ <!DOCTYPE HTML>
+<html>
+<head>
+	<title>Strata by HTML5 UP</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="is-preload">
+	
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<a href="#" class="image avatar"><img src="assets/images/photooooo.jpg" alt="" /></a>
+			<h1>
+				<strong>I am <%= data.name %></strong>
+			</h1>
+		</div>
+	</header>
+	
+	
+	<!-- Main -->
+	<div id="main">
+		
+		<!-- One -->
+		<section id="one">
+			<header class="major">
+				<h2 class="text"><%= data.title %> </h2>
+			</header>
+			<p>P</p>
+			<ul class="actions">
+				<li><a href="#" class="button">Learn More</a></li>
+			</ul>
+		</section>
+		
+		<!-- Two -->
+		<section id="two">
+			<h2>Recent Work</h2>
+			<div class="row">
+				
+				<% data.projects.map(e => { %>
+					<article class="col-6 col-12-xsmall work-item">
+						<a href="/assets/images/fulls/01.jpg" class="image fit thumb"><img src=<%= e.image %>  alt=""/></a>
+						<h3><%= e.name %> </h3>
+						
+						<p>P</p>
+					</article>
+					<% }) %>  
+					
+					
+				</div>
+				<ul class="actions">
+					<li><a href="#" class="button">Full Portfolio</a></li>
+				</ul>
+			</section>
+			
+			<!-- Three -->
+			<section id="three">
+				<h2>B.I.O</h2>
+				<p>P</p>
+					<div class="row">
+						<div class="col-8 col-12-small">
+							<form method="POST" action="/" enctype="application/x-www-form-urlencoded">
+								<div class="row gtr-uniform gtr-50">
+									
+									<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="name" /></div>
+									
+									<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+									
+									<div class="col-12">
+										<textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+									</div>
+									<ul class="actions">
+										<li><button type="submit" value="Sen Message">Boss !</button></li>
+									</ul>
+								</form>
+								
+							</div>
+							
+							<div class="col-4 col-12-small">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+										Yangiyo'l shahar<br />
+										______________<br />
+										Toshkent viloayti
+									</li>
+									<li>
+										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+										+998931854507
+									</li>
+									<li>
+										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+										<a href="#">https://mail.google.com/mail/u/0/?ogbl#inbox</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+					
+					<!-- Four -->
+					
+					
+				</div>
+				
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://github.com/alqaxxor/youtube-clone" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="A£_Qahhor" class="icon brands fa-telegram"><span class="label">Dribbble</span></a></li>
+							<li><a href="alqaxx0r" class="icon brands fa-instagram"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+				
+				<!-- Scripts -->
+				<script src="assets/js/jquery.min.js"></script>
+				<script src="assets/js/jquery.poptrox.min.js"></script>
+				<script src="assets/js/browser.min.js"></script>
+				<script src="assets/js/breakpoints.min.js"></script>
+				<script src="assets/js/util.js"></script>
+				<script src="assets/js/main.js"></script>
+				
+			</body>
+			</html> 

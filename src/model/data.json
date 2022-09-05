@@ -1,0 +1,23 @@
+    {
+        "name": "Abduqahhor",
+        "title": "Assalomu alaykum",
+        "projects": [
+            {
+                "name": "Pokemon viloyatdan",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_pk_vodwbXnw6bnNMDD6KOE8lQGdE7jyDzg&usqp=CAU"
+               
+            },
+            {
+                "name": "Todo List",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_pk_vodwbXnw6bnNMDD6KOE8lQGdE7jyDzg&usqp=CAU"
+            },
+            {
+                "name": "Youtobe clone",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_pk_vodwbXnw6bnNMDD6KOE8lQGdE7jyDzg&usqp=CAU"
+            },
+            {
+                "name": "Twetter side",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_pk_vodwbXnw6bnNMDD6KOE8lQGdE7jyDzg&usqp=CAU"
+            }
+        ]
+    }

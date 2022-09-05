@@ -1,0 +1,87 @@
+body {
+    /* background-color: aqua; */
+    margin: 0 auto;
+}
+.box {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    transform: translateX(150px);
+    
+    display: flex;
+}
+
+.list {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 10px;
+    margin: 0;
+}
+
+.card {
+    list-style-type: none;
+}
+
+.card_img {
+    width: 350px;
+    height: 230px;
+    /* padding: 10px; */
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.card_name {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.row {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+    
+.div_form {
+    margin-top: 20px;
+}
+.input_file {
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+    
+    
+.actions {
+    width: 70px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.li {
+    list-style-type: none;
+}
+
+.input {
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+.btn {
+  
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 10px;
+  border-radius: 10px solid #fff;
+
+}
